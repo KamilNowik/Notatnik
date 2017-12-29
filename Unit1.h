@@ -36,9 +36,22 @@ __published:	// IDE-managed Components
         TMemo *Tresc;
         TOpenDialog *OpenDialog1;
         TSaveDialog *SaveDialog1;
+        TFontDialog *FontDialog1;
         void __fastcall Otwrz1Click(TObject *Sender);
         void __fastcall Zapiszjako1Click(TObject *Sender);
         void __fastcall Zapisz1Click(TObject *Sender);
+        void __fastcall Nowy1Click(TObject *Sender);
+        void __fastcall TrescKeyDown(TObject *Sender, WORD &Key,
+          TShiftState Shift);
+        void __fastcall Zakocz1Click(TObject *Sender);
+        void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+        void __fastcall Wytnij1Click(TObject *Sender);
+        void __fastcall KopiujCtrlc1Click(TObject *Sender);
+        void __fastcall WklejCtrlv1Click(TObject *Sender);
+        void __fastcall Zawijaniewierszy1Click(TObject *Sender);
+        void __fastcall czcionka1Click(TObject *Sender);
+        void __fastcall Oprogramie1Click(TObject *Sender);
+        void __fastcall Zapraszamnamojstron1Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
